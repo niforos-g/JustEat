@@ -72,7 +72,6 @@ document.getElementById('searchBtn').addEventListener('click', async () => {
     container.innerHTML = '';
   }
 });
-
 // Fix that the app shows results not only by clicking the Search button but by also hitting Enter
 document.getElementById('postcode').addEventListener('keydown', (event) => {
   if (event.key === 'Enter') {
