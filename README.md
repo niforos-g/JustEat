@@ -39,7 +39,7 @@ After installing the dependencies, continue with the steps below.
 
 1. Navigate to the project directory and start the proxy:
 
-node node_proxy.js  
+`node node_proxy.js`
 
 2. Once the proxy is running, open the `RestaurantFinder.html` file in your browser.
 
