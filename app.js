@@ -13,7 +13,7 @@ const validPostcodes = [
   "EC4M7RF", "W92JE"
 ];
 
-// function to make the user's input work regardless the type of case used or the format 
+// function to make the user's input work regardless of lower/upper case or space in the text 
 function normalizePostcode(postcode) {
   return postcode.replace(/\s+/g, '').toUpperCase();
 }
