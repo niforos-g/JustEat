@@ -43,7 +43,7 @@ After installing the dependencies, continue with the steps below.
 
 2. Once the proxy is running, open the `RestaurantFinder.html` file in your browser.
 
-3. In the search bar at the top, enter a postal code and press **Search**.
+3. In the search bar at the top, enter a postal code and click on **Search** or hit the **Enter/Return** button.
 
 4. The first 10 restaurants will be displayed along with their details.
 
@@ -53,10 +53,14 @@ After installing the dependencies, continue with the steps below.
 
 ### Available postal codes:
 
-CT12EH, BS14DJ, L40TH, NE97TY, SW1A1AA,  
-CF118AZ, M160RA, EH11RE, BN11AE, CB74DL,  
-LS27HY, G38AG, PL40DW, B263QJ, DH45QZ,  
-BT71NN, EC4M7RF, W92JE  
+| Postcode | Postcode | Postcode |
+|----------|----------|----------|
+| CT12EH   | BS14DJ   | L40TH    |
+| NE97TY   | SW1A1AA  | CF118AZ  |
+| M160RA   | EH11RE   | BN11AE   |
+| CB74DL   | LS27HY   | G38AG    |
+| PL40DW   | B263QJ   | DH45QZ   |
+| BT71NN   | EC4M7RF  | W92JE    |
 
 You can add more postal codes in the `validPostcodes` list at the top of the `app.js` file, following the same format.
 
