@@ -4,20 +4,23 @@ A simple web interface that displays restaurant information from the JustEat API
 
 ---
 
-## DESCRIPTION
+## Description
 
 - This project demonstrates how to fetch restaurant data from the JustEat API using UK postal codes and display details for the first 10 results.
 
 ---
 
-## REQUIREMENTS
+## Requirements
 
-- The following 3 files must be downloaded from here **LINK** and saved in the same folder.
+- The following 3 files must be downloaded from this repository and saved in the same folder.
+     - node_proxy.js
+     - app.js
+     - RestaurantFinder.html
 - Node.js must also be installed in order for the proxy server to work: https://nodejs.org/en
 
 ---
 
-## HOW TO RUN
+## How to Run
 
 ### (First time only)
 
@@ -38,7 +41,7 @@ After installing the dependencies, continue with the steps below.
 
 node node_proxy.js  
 
-2. Once the proxy is running, open the `.html` file in your browser.
+2. Once the proxy is running, open the `RestaurantFinder.html` file in your browser.
 
 3. In the search bar at the top, enter a postal code and press **Search**.
 
@@ -59,7 +62,7 @@ You can add more postal codes in the `validPostcodes` list at the top of the `ap
 
 ---
 
-## ASSUMPTIONS / IMPROVEMENTS
+## Assumptions / Improvements
 
 - The instructions for this assignment were very clear. The only challenge was accessing the API endpoint due to CORS policy restrictions. This was resolved using a proxy server.
 
