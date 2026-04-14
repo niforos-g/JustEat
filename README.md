@@ -28,8 +28,8 @@ Make sure all requirements are fulfilled. Open a terminal and navigate to the fo
 
 Run the following commands:
 
-npm init -y  
-npm install express node-fetch@2  
+`npm init -y`  
+`npm install express node-fetch@2`
 
 After installing the dependencies, continue with the steps below.
 
