@@ -68,14 +68,14 @@ You can add more postal codes in the `validPostcodes` list at the top of the `ap
 
 ## Assumptions / Improvements
 
-- The instructions for this assignment were very clear. The only challenge was accessing the API endpoint due to CORS policy restrictions. This was resolved using a proxy server.
+- The instructions for this assignment were very clear. The most significant challenge was accessing the API endpoint due to CORS policy restrictions. This was resolved using a proxy server.
 
 - The interface has room for improvement depending on requirements. Possible enhancements include:
 
-1. Adding an autocomplete box for postal codes (with more options)
+1. Adding an auto-fill box for postal codes (with more options)
 2. Adding sorting options (e.g. best rated, recently opened, promotions, alphabetical order)
 3. Adding filters:
    - Cuisine type
    - Rating range
    - Delivery options / price range
-4. Separating restaurant deals from cuisine types
+4. Showing restaurant deals on different section from cuisine types.
